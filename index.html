@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script></script>
+    <title>CTA.</title>
+  </head>
+  <body>
+    <main>
+      <div
+        class="relative bg-[#3056D3] m-12 md:m-16 lg:m-36 inline-block w-4/5"
+      >
+        <div class="m-auto w-2/5 text-center">
+          <h6 class="text-xs md:text-base text-[#AAB9ED] mt-20">
+            Get Windy UI Only at 99$
+          </h6>
+          <h1
+            class="text-xl md:text-3xl lg:text-4xl text-[#ffffff] my-5 font-bold"
+          >
+            Create You Next Web Project With Our TailGrids UI
+          </h1>
+          <p class="text-xs md:text-sm lg:text-base text-[#ffffff] mb-10">
+            There are many variations of passages of Lorem Ipsum available but
+            the majority have suffered alteration in some form.
+          </p>
+        </div>
+        <div>
+          <a
+            href=""
+            class="block m-auto mb-20 text-center bg-[#ffffff] text-[#3056D3] font-medium w-36 md:w-44 border-[#EEF1FC] border-[2px] rounded">
+            <h6 class="my-3 text-xs md:text-base">Purchase Now</h6>
+          </a>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script>
+      setTimeout(() => {
+        cambiarColor();
+        ocultarTexto();
+      }, 5000);
+
+      function cambiarColor() {
+        const fondo = document.querySelector("#fondo");
+        console.log("fondo", fondo);
+        fondo.classList.toggle("bg-[#3056D3]");
+        fondo.classList.toggle("bg-[#d37c30]");
+      }
+
+      function ocultarTexto() {
+        const description = document.getElementById("description");
+        description.classList.toggle("hidden");
+}
+const button = document.getElementById("button");
+button.addEventListener("click", function (e) {
+console.log('evento:', e)
+cambiarColor();
+});
+  </script>
+</html>

@@ -1,0 +1,124 @@
+.header {
+    background: #911;
+    padding: 24px;
+    margin: 40px;
+}
+
+.hero {
+    background: #116;
+    padding: 10px;
+    margin: 15px;
+}
+
+.pirulo {
+    background: #070;
+    padding: 30px;
+    margin: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    position: relative;
+}
+
+.articulos-wrapped {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    gap: 10px;
+    
+}
+
+.articulos {
+    background: #521;
+    padding: 24px;
+    margin: 12px;
+    display: inline-grid;
+}
+
+.col-6 {
+    grid-column: span 6;
+}
+
+.col-3 {
+    grid-column: span 3;
+}
+
+.articulo {
+    background: #58a;
+    padding: 24px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.badge {
+    font-size: 12px;
+    border-radius: 5px;
+    padding: 3px;
+    position: absolute;
+    background: #f00;
+    right: -8px;
+    top: -18px;
+}
+
+.call-to-action {
+    background: #f40;
+    height: 150px;
+    width: 700px;
+    padding: 10px;
+    margin: auto;
+    position: relative;
+}
+
+.titulo {
+    position: absolute;
+    background: #0e0;
+    padding: 5px;
+    margin-top: 30px;
+    margin-left: 10px; 
+    border-radius: 5px;
+}
+
+.texto {
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 10px;
+    width: 500px;
+}
+
+.agendar {
+    position: absolute;
+    font-size: 22px;
+    background: #939;
+    padding: 20px;
+    right: 10px;
+    top: 30px;
+    border: 5px solid #f10
+}
+
+aside {
+    background: #292;
+    padding: 23px;
+    margin: 21px;
+}
+
+footer { 
+    background: #c1c;
+    padding: 23px;
+    margin: 21px;
+}
+
+.pirulo-seo {
+    background: rgb(4, 112, 133);
+    padding: 30px;
+    margin: 20px;
+}
+
+.pirulo-mar {
+    background: rgb(206, 109, 5);
+    padding: 30px;
+    margin: 20px;
+}
